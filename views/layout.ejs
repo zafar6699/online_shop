@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <nav class="menu-nav">
+    <nav class="menu-nav open-nav">
         <div class="nav-logo">
             <a href="#">
                 <i class="fa fa-cubes"></i>
@@ -153,11 +153,36 @@
     </nav>
 
     <header class="header">
-        
+        <div class="header-content">
+            <div class="header-left">
+                <button type="button" class="bt-bars">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div class="header-right">
+                <div class="profile-dropdown">
+                    <button type="button" class="bt-dropdown" data-target="profile-dropdown">
+                        <div class="img-pro">
+                            <img src="/img/header_pro.png" alt="">
+                        </div>
+                    </button>
+                    <div class="dropdown-content my-dropdown" id="profile-dropdown">
+                        <a href="#"><i class="fa fa-user"></i><b>Profile</b></a>
+                        <a href="#"><i class="fa fa-credit-card"></i><b>My Wallet</b></a>
+                        <a href="#"><i class="fa fa-cog"></i><b>Settings</b></a>
+                        <hr>
+                        <a class="logout" href="#"><i class="fa fa-power-off"></i><b>Logout</b></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
 
-    <%- body %> 
+    <div class="view-content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda possimus aspernatur eius. Dolorum aspernatur porro esse mollitia? Neque hic ipsa, facilis nostrum nam, doloribus qui, aspernatur eveniet recusandae laboriosam quod?</p>
+        <%- body %>
+    </div> 
 
 
     <!-- Scripts -->
