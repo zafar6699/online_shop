@@ -98,6 +98,8 @@ nav.menu-nav div.left-sidebar-menu div.menu-ul ul.nav-menu li > a b {
   color: #7e8cda;
   font-size: 14px;
   margin-left: 7px;
+  -webkit-transition: .3s;
+  transition: .3s;
   font-weight: 400;
 }
 
