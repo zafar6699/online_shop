@@ -6,9 +6,6 @@ const mongoose = require('mongoose');
 const app = express()
 
 
-
-
-
 // Layout and ejs
 app.use(layout)
 app.use(express.static(path.join(__dirname, 'public')));
