@@ -76,6 +76,9 @@
 .all-form-group form label {
   display: block;
   font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 0.3px;
 }
 
 .all-form-group form input {
@@ -84,6 +87,7 @@
   border: 1px solid #ced4da;
   border-radius: 3px;
   outline: none;
+  padding: 0 10px;
 }
 
 .all-form-group form button {
@@ -96,5 +100,12 @@
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
+}
+
+@media (min-width: 300px) and (max-width: 492px) {
+  .all-form-group {
+    width: 90%;
+    height: 80%;
+  }
 }
 /*# sourceMappingURL=loginStyles.css.map */
