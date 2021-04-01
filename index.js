@@ -15,7 +15,7 @@ app.set('view engine', 'ejs')
 app.use( express.json() )
 
 // Routes EJS
-app.use('/', require('./routes/index'))
+app.use('/admin', require('./routes/admin'))
 
 
 
@@ -24,7 +24,7 @@ app.use('/', require('./routes/index'))
 
 
 // Port
-const PORT = 4025
+const PORT = 4000
 app.listen(PORT, ()=> {
     console.log(`Server run ${PORT}`);
 })
